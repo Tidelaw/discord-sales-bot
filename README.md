@@ -25,4 +25,22 @@ HELIUS_KEY = <your Helius API key>
 ```
 The app is now fully functional on your local machine.
 
-You can also contribute to the project by submitting pull requests to the repository to fix bugs or to add new features! For any inquiries, visit the [Helius Discord](https://discord.gg/helius) or message Tidelaw#0707.
+<br>
+
+# **Walkthrough**
+
+Detailed blog explanation [here](https://helius-api.notion.site/Discord-Sales-Bot-4dee7df2dd814e99abaf593a62c28e62?pvs=4).
+
+- Clone Repo
+- Visit Vercel, add repository and deploy with environmental variables:
+    - **HELIUS_KEY** - API Key generated from [Helius Dashboard](https://dev.helius.xyz/dashboard/app)
+    - **DISCORD_WEBHOOK** - Webhook URL from Discord (see [blog](https://helius-api.notion.site/Discord-Sales-Bot-4dee7df2dd814e99abaf593a62c28e62?pvs=4))
+
+- Copy URL of deployed endpoint and setup a webhook at the Helius Dashboard
+- Enter other details e.g your collection's address
+
+That's it!
+
+<br>
+
+## For any inquiries, visit the [Helius Discord](https://discord.gg/helius) or message Tidelaw#0707.
