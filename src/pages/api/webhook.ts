@@ -23,7 +23,7 @@ export default async function handler(req: any, res: any) {
   try {
     if (req.method === "POST") {
 
-      const webhook = "https://discord.com/api/webhooks/1120206585185189989/NRJdXCOfFsB7tJw5E6VT8C7Vn7_Yr5LBJdeqQgJbqaJ_zH9aUkDjEpHPP8hwZH_945Fm"
+      const webhook:any = process.env.DISCORD_WEBHOOK
 
       let webhook_data = req.body
 
