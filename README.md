@@ -32,7 +32,7 @@ The app is now fully functional on your local machine.
 Detailed blog explanation [here](https://helius-api.notion.site/Discord-Sales-Bot-4dee7df2dd814e99abaf593a62c28e62?pvs=4).
 
 - Clone Repo
-- Visit Vercel, add repository and deploy with environmental variables:
+- Visit Vercel, add repository and deploy with environmental variables (you may need to redeploy):
     - **HELIUS_KEY** - API Key generated from [Helius Dashboard](https://dev.helius.xyz/dashboard/app) (not RPC URL)
     - **DISCORD_WEBHOOK** - Webhook URL from Discord (see [blog](https://helius-api.notion.site/Discord-Sales-Bot-4dee7df2dd814e99abaf593a62c28e62?pvs=4))
 
