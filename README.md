@@ -33,7 +33,7 @@ Detailed blog explanation [here](https://helius-api.notion.site/Discord-Sales-Bo
 
 - Clone Repo
 - Visit Vercel, add repository and deploy with environmental variables:
-    - **HELIUS_KEY** - API Key generated from [Helius Dashboard](https://dev.helius.xyz/dashboard/app)
+    - **HELIUS_KEY** - API Key generated from [Helius Dashboard](https://dev.helius.xyz/dashboard/app) (not RPC URL)
     - **DISCORD_WEBHOOK** - Webhook URL from Discord (see [blog](https://helius-api.notion.site/Discord-Sales-Bot-4dee7df2dd814e99abaf593a62c28e62?pvs=4))
 
 - Copy URL of deployed endpoint and setup a webhook at the Helius Dashboard
